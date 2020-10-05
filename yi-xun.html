@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>易迅</title>
+  <style>
+					*{
+  					  margin:0;
+					  padding:0;
+					  }
+
+					li{
+						list-style-type:none;
+					}
+
+
+					.fl{
+						float:left;
+					}
+
+					.fr{
+						float:right;
+					}
+/*-----------------------正常修饰部分---------------------------------------*/
+					#nav-box{
+									margin:30px auto;
+									width:1000px;
+									border:1px solid #000000;
+									background-color:#317ee8;
+									/*overflow:hidden;*/
+									height:30px;
+									/* 针对于文字设置的属性，子元素可以继承*/
+									line-height:30px;
+									color:white;
+									font-size:14px;
+									border-radius:0 5px 5px 0;
+									}
+									/* 修饰全部分类 */
+									#nav-box .cartgory{
+											width:184px;
+											padding-left:16px;
+											font-size:18px;
+											background-color:#317fe3;
+									}
+									/* 修饰菜单导航下的li */
+									#nav-box .menu-nav li{
+											float:left;
+											width:99px;
+											border-left:1px solid transparent;
+											border-right:1px solid transparent;
+											text-align:center;
+									}
+									#nav-box .menu-nav li a{
+											text-decoration:none;
+											color:white;
+									}
+									/* 修饰叫index的li */
+									#nav-box .menu-nav li.index{
+											background-color:#ffb901;
+											border-color:#fff;
+									}
+									
+									/* 鼠标悬停效果 */
+									#nav-box .menu-nav :hover {
+											background-color:gold;
+									}
+
+
+
+									/* 其他测试效果 */
+									body{
+												background-image:url('./../CSS文件/IMG/丛雨.jpg');
+												background-repeat:no-repeat;
+												background-position:top center;
+									}
+									#nav-box .menu-nav li p{
+											diaplay:none;
+									}
+									#nav-box .menu-nav li a:hover+p{
+											display:block; 
+									}
+
+									.d3{
+											height:100px;
+											border:3px dashed blue;
+									}
+  
+  </style>
+ </head>
+ <body>
+ 				<div id='nav-box'>
+				     <div class='fl'>全部商品分类</div>
+								<ul class=' menu-nav fl'>
+										<li class='active index'>
+										<a href="#">首页</a>
+										</li>
+										<li><a href="#">QQ网购</a></li>
+										<li><a href="#">装机宝</a></li>
+										<li><a href="#">早市</a></li>
+										<li><a href="#">天黑黑</a></li>
+										<li><a href="#">二手特卖</a></li>
+										<li><a href="#">团购</a></li>	
+								</ul>
+				</div>
+  
+ </body>
+</html>

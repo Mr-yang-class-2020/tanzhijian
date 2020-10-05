@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>当当网</title>
+  <style>
+				#nav
+				{
+						width:3000px;
+						height:3000px;
+						background-color:#786315;
+
+				}	
+				.d1
+				{
+						width:1000px;
+						height:40px;
+						background-color:#fc6a15;
+						margin:0;
+						padding:0;
+				}
+				.d1 ul
+				{
+						padding:0;
+						list-style-type:none;
+				}
+				.d1 li
+				{
+						float:left;
+						padding:10px;
+				}
+				.d1 ul li a
+				{
+						display:block;
+						text-decoration:none;
+						text-align:center;
+						color:white;
+				}
+				.d1 li .index
+				{
+						background-color:#f12c02;
+					
+				}
+				.d1 li:hover{
+						background:#666;
+				}
+
+				.d2{
+						width:230px;
+						height:100px;
+						background-color:white;
+						margin:0;
+						border:1px solid #9ddac8;
+						border-left:3px solid red;
+						border-right:3px solid red;
+				}
+				.d2 ul{
+						margin:0;
+						padding:0；
+				}
+				.d2 ul li{
+						padding:5px;
+						text-align:left;
+				}
+				.l2{
+						list-style:none;
+				}
+  </style>
+ </head>
+ <body>
+				<div id='nav'>
+				
+						<div class='d1'>
+								<ul>
+										<li class='index'><a href="#">首页</a></li>
+										<li><a href="">图书</a></li>
+										<li><a href="">音像</a></li>
+										<li><a href="">数字馆</a></li>
+										<li><a href="">孕婴童</a></li>
+										<li><a href="">服装</a></li>
+										<li><a href="">鞋靴</a></li>
+										<li><a href="">运动</a></li>
+										<li><a href="">箱包</a></li>
+										<li><a href="">美妆</a></li>
+										<li><a href="">饰品</a></li>
+										<li><a href="">手表</a></li>
+										<li><a href="">珠宝</a></li>
+										<li><a href="">家具</a></li>
+										<li><a href="">食品</a></li>
+										<li><a href="">酒</a></li>
+										<li><a href="">保健</a></li>
+							    </ul>
+						</div>
+
+						<div class='d2'>
+								<ul>
+										<li class='l2'>全部商品分类</li>
+										<li>图书音像/数字</li>
+								</ul>
+						</div>
+				
+				</div>
+
+ </body>
+</html>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>第五大道</title>
+    <style>
+				.nav1{
+						width:2000px;
+						height:30px;
+						background:white;
+						border-top:2px solid; 
+						
+				}
+				.nav1 .u1{
+						list-style:none;
+						margin:0;
+						padding:0;
+				}
+				.nav1 .u1 li{
+						float:left;
+						display:block;
+						line-height:30px;
+						padding:0 20px;
+                }
+				.nav1 ul li a{
+						text-decoration:none;
+						color:black;
+				}
+
+				.nav2{
+						width:2000px;
+						height:50px;
+						background:white;
+						border-bottom:solid 2px #8b8b8b;
+				}
+
+				.nav2 ul{
+						list-style:none;
+						margin:0;
+						padding:0;
+				}
+
+				.nav2 ul li{
+						float:left;
+						line-height:50px;
+						padding:0 5px;
+				}
+
+  </style>
+ </head>
+ <body>
+				<div class='nav1'>
+						<ul class='u1'>
+								<li class='l1'><a href="#">首页</a></li>
+								<li><a href="#">最新上架</a></li>
+								<li><a href="#">所有品牌</a></li>
+								<li><a href="#">箱包</a></li>
+								<li><a href="#">化妆品</a></li>
+								<li><a href="#">钟表</a></li>
+								<li><a href="#">饰品</a></li>
+								<li><a href="#">服装鞋帽</a></li>
+								<li><a href="#">男士</a></li>
+								<li><a href="#">名酒</a></li>
+								<li><a href="#">家居电子</a></li>
+								<li><a href="#" style='color:red'>专场促销</a></li>
+								<li><a href="#">体验店</a></li>
+						</ul>
+				</div>			
+				<div class='nav2'>
+						<ul>
+								<li class='l2'>Home</li>
+								<li>New Arrival</li>
+								<li>All Brands</li>
+								<li>Handbags</li>
+								<li>Cosmetic</li>
+								<li>Watches</li>
+								<li>Accessories</li>
+								<li>Clothing/shoes</li>
+								<li>Men</li>
+								<li>Wine</li>
+								<li>Electronics</li>
+								<li>Promotions</li>
+								<li>Show Room</li>
+						</ul>
+				</div>
+				
+				
+ </body>
+</html>

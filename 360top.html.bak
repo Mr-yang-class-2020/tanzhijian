@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>360Top</title>
+    <style>
+
+				#nav{
+						width:3000px;
+						height:3000px;
+						background-color:#888;
+				}
+
+				.d1{
+						width:1000px;
+						height:50px;
+						margin:0;
+						padding:0;
+						background-image:linear-gradient(to right, #040301 , #604613);
+						backgroundcolor:#040301;
+				}
+				
+				.d1 ul{
+				        list-style-type:none;
+						padding-left:0;
+				}
+				.d1 ul li{
+						float:left;
+						line-height:35px;
+						padding:10px;
+				}
+				.d1 ul li a{
+						text-decoration:none;
+						display:block;
+						color:#ecc53a;
+				}
+
+				.d2{
+						background-color:#222222;
+						width:300px;
+						height:130px;
+				}
+				.d2 ul{
+						margin:0;
+						padding:0;	
+						list-style-type:none;
+				}
+				.d2 .u2 li{
+						text-decoration:none;
+						display:block;
+						color:white;
+				}
+				.l1{
+						float:left;
+						height:20px;
+				}
+				.l2{
+						float:left;
+				}
+				.l3{
+						float:left;
+				}
+
+  </style>
+ </head>
+ <body>
+
+				<div id='nav'>
+				
+						<div class='d1'>
+								<ul>
+										<li class='sy'><a href="#">首页</a></li>
+										<li><a href="#">新品</a></li>
+										<li><a href="#">品牌</a></li>
+
+										<li><a href="#">箱包</a></li>
+										<li><a href="#">钟表</a></li>
+										<li><a href="#">鞋服配饰</a></li>
+										<li><a href="#">珠宝首饰</a></li>
+										<li><a href="#">个护化妆</a></li>
+										<li><a href="#">品味生活</a></li>
+
+										<li><a href="#">所有分类</a></li>
+										<li><a href="#">TOP资讯
+										<span><img src='images/new.png' alt='new'/></span>
+										</a></li>
+								</ul>
+						</div>
+
+
+						<div class='d2'>
+								<ul class='u2'>
+										<li class='l1'>Female</li>
+										<li>Male</li>
+										<li class='l2'>女士包包</li>
+										<li>男士包包</li>
+										<li class='l3'>女士服饰</li>
+										<li>男士服饰</li>
+								</ul>
+						</div>
+				
+				</div>
+  
+ </body>
+</html>
