@@ -1,0 +1,408 @@
+
+/* 首页css文件 */
+
+/*^^^^^^^^^^^^header区域开始^^^^^^^^^^^^*/
+#header
+{
+    height:60px;
+    background-color:transparent;
+}
+/* header 左区域 */
+#header .logo
+{
+    margin: 15px 30px;
+}
+/* header 右区域 */
+#header .search
+{
+    width: 300px;
+    height: 60px;
+}
+#header .search .input
+{
+    width: 150px;
+    height: 60px;
+}
+#header .search input:focus
+{
+    background-color: gold;
+}
+#header .search .search-icon
+{
+    margin-top: 14px;
+    float: left;
+    display: inline-block;
+    height:60px;
+    width:150px;
+}
+#header .search .search-icon img
+{
+    height:25px;
+    width:25px;
+}
+#header .search input
+{
+    display:inline-block;
+    margin:20px 0;
+}
+/*^^^^^^^^^^^^header区域结束^^^^^^^^^^^^*/
+
+/*^^^^^^^^^^^^nav区域开始^^^^^^^^^^^^*/
+#nav
+{
+    height: 50px;
+    background-color:#2e2e2e;
+    color: #fff;
+    line-height: 50px;
+    font-size: 12px;
+    text-align: center;
+}
+#nav li
+{
+    float: left;
+    width: 120px;
+}
+/*  鼠标悬停事件  */
+#nav li:hover
+{
+
+    transition: all 900ms;
+    -webkit-transform: translate(240px,-100px);
+    -webkit-transform:scale(1.1);
+    /*-webkit-transform: skew(720deg);*/
+    background-color:orange;
+}
+#nav li a:hover
+{
+    color:#056846;
+}
+#nav li a
+{
+    display: block;
+    border-right:1px dotted #bbb;
+    color: white;
+}
+#nav li:last-child a
+{
+    border: none;
+}
+/* 导航的悬浮事件*/
+#nav li.active a
+{
+    background-color: #00a56e;
+    background-clip:padding-box;
+}
+/*^^^^^^^^^^^^nav区域结束^^^^^^^^^^^^*/
+
+/*^^^^^^^^^^^^banner开始区域^^^^^^^^^^^^*/
+#banner
+{
+    height: 440px;
+    background-color: #0ed694;
+    margin-top:10px;
+    overflow:hidden;
+    padding-bottom:38px;
+    position:relative;
+    margin-bottom:20px;
+}
+#banner ul
+{
+    width:300%;
+}
+#banner ul li
+{
+    width:960px;
+    float:left;
+}
+#banner ul li a
+{
+/*    将a变为块元素,变为块的元素默认高度为父元素的高度     */
+    display:block;
+}
+#banner ul li a img
+{
+    width:960px;
+}
+#banner .circle
+{
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+#banner .circle a
+{
+    float:left;
+    width:20px;
+    height:20px;
+    border-radius:10px;
+    background-color:white;
+    margin:0 5px;
+}
+#banner .circle a.active
+{
+    background-color:blue;
+}
+/*^^^^^^^^^^^^banner区域结束^^^^^^^^^^^^*/
+
+/*^^^^^^^^^^^^content区域开始^^^^^^^^^^^^*/
+#content
+{
+    height:600px;
+    font-size: 12px;
+    background-color:transparent;
+}
+#content a
+{
+    color:#505050;
+}
+
+/* 左边大盒子 */
+#content .left-con
+{
+    height:600px;
+    width: 198px;
+    margin-right:2px;
+}
+#content .left-con img
+{
+    width: 198px;
+}
+#content .left-con ul
+ {
+     width:100%;
+     height:100%;
+ }
+#content .left-con .index a
+{
+    color:#fff;
+    display: block;
+    text-align:left;
+    padding-left:0;
+}
+
+#content .left-con .index
+{
+    background-color:#2e2e2e;
+    height: 36px;
+}
+/* left-con下的top-con盒子（左上盒子）*/
+#content .left-con .top-con
+{
+   height: 305px;
+   background-color:#f0f0f0;
+}
+#content .left-con .top-con .index
+{
+    margin-top:1px;
+}
+#content .left-con .top-con li
+{
+    padding-bottom:18px;
+
+}
+#content .left-con .top-con li a
+{
+    display: block;
+    text-align: center;
+}
+/* left-con下的under-con盒子（左下盒子）*/
+#content .left-con .under-con
+{
+    height:280px;
+    background-color:#f0f0f0;
+}
+#content .left-con .under-con ul li
+{
+    padding:8px 10px;
+
+}
+/* 右边大盒子 */
+#content .right-con
+{
+    width:760px;
+    background-color: #fff;
+}
+/* 右盒子-上盒子 */
+#content .right-con .top-con
+{
+    height:234px;
+    background-color: transparent;
+}
+/* 右盒子-上盒子-->左盒子*/
+#content .right-con .top-con .left-con
+{
+    width: 516px;
+    height: 234px;
+    float:left ;
+}
+#content .right-con .top-con .left-con ul .l3
+{
+    height: 40px;
+    margin-bottom: 12px;
+}
+#content .right-con .top-con .left-con ul .l4
+{
+    background-color:transparent;
+    height: 70%;
+}
+#content .right-con .top-con .left-con ul .l4 p
+{
+    display: block;
+    height: 136px;
+    width: 468px;
+    text-indent: 24px;
+    padding-left: 16px;
+    line-height:24px;
+
+}
+#content .right-con .top-con .left-con img
+{
+    width:516px;
+    height:3px;
+}
+#content .right-con .top-con .left-con ul li
+{
+    background-color:#2e2e2e;
+    height:40px;
+}
+#content .right-con .top-con .left-con ul li a
+{
+    line-height: 40px;
+    color: #fff;
+
+}
+/* 右盒子-上盒子-->右盒子*/
+#content .right-con .top-con .right-con
+{
+    width: 238px;
+    height: 234px;
+    float: left;
+}
+#content .right-con .top-con .right-con ul
+{
+    height: 100%;
+}
+#content .right-con .top-con .right-con ul img
+{
+    width: 100%;
+}
+#content .right-con .top-con .right-con ul li
+{
+    margin-bottom:12px;
+    list-style: square;
+    margin-left: 16px;
+
+}
+#content .right-con .top-con .right-con ul .l1
+{
+    height: 40px;
+    margin-left:0;
+    background:#2e2e2e;
+}
+#content .right-con .top-con .right-con ul .l1 a
+{
+    line-height: 40px;
+    color: #fff;
+}
+#content .right-con .top-con .a1
+{
+    margin-left:16px;
+}
+/* 右盒子-下盒子--上标盒*/
+#content .right-con .under-con
+{
+    height:352px;
+}
+#content .right-con .under-con .shang
+{
+    height: 40px;
+    margin-bottom: 30px;
+}
+#content .right-con .under-con .shang img
+{
+    width:100%;
+    height:3px;
+}
+#content .right-con .under-con .shang ul
+{
+    height: 100%;
+}
+#content .right-con .under-con .shang li
+{
+    height: 40px;
+    background-color: #2e2e2e;
+
+}
+#content .right-con .under-con .shang li a
+{
+    line-height: 40px;
+    margin-left:16px;
+    color:#fff;
+}
+/* 右盒子-下盒子-->下内盒*/
+#content .right-con .xia
+{
+    height:290px;
+}
+#content .right-con .xia ul
+{
+    height:290px;
+}
+#content .right-con .xia ul li
+{
+    margin-left:20px;
+    padding-bottom:24px;
+    float: left;
+}
+#content .right-con .xia ul li div
+{
+    width:112px;
+    height:120px;
+    float: left;
+}
+#content .right-con .xia ul li div h4
+{
+    padding-bottom:8px;
+}
+#content .right-con .xia ul li div p
+{
+    line-height:16px;
+}
+#content .right-con .xia ul li .text
+{
+    padding-right:2px;
+}
+/*^^^^^^^^^^^^content区域结束^^^^^^^^^^^^*/
+
+/*^^^^^^^^^^^^footer区域开始^^^^^^^^^^^^*/
+#footer
+{
+    height: 130px;
+    background-color:transparent;
+}
+#footer ul
+{
+    width:100%;
+    background-color: #2e2e2e;
+    height: 70px;
+    margin-bottom: 10px;
+}
+#footer ul li
+{
+    float: left;
+    margin: 15px 10px;
+    height: 40px;
+}
+#footer ul li a
+{
+    color: #fff;
+    line-height: 40px;
+}
+#footer ul span
+{
+    display: inline-block;
+    padding-top: 5px;
+    margin-left:16px;
+}
+/*^^^^^^^^^^^^footer区域结束^^^^^^^^^^^^*/

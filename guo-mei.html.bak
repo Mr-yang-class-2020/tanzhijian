@@ -37,7 +37,7 @@
 				}
 				.d1 ul .l1{
 					background:red;
-					padding-left:0;
+					padding-left:8px;
 				}
 				.d1 ul li{
 					display:inline;
@@ -46,8 +46,8 @@
 				}
 				.d2{
 					margin:0;
-					width:170px;
-					height:120px;
+					width:200px;
+					height:140px;
 					background:#fcf3ea;
 					border-left:1px solid #fcbe8d;
 					border-right:1px solid #fcbe8d;

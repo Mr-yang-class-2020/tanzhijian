@@ -86,7 +86,7 @@
 						 top:-10px;
 					}
 					.nav-menu .fx .s1{
-							text-align:right;
+						
 					}
 
 					.nav-menu .fx .s1{
@@ -100,7 +100,7 @@
 								color:white;
 								padding:15px;
 		
-  
+								}
   </style>
  </head>
  <body>

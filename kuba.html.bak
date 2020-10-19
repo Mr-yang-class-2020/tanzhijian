@@ -7,9 +7,53 @@
   <meta name="Keywords" content="">
   <meta name="Description" content="">
   <title>库巴网</title>
-  <style></style>
+  <style>
+				*{
+				 margin:0;
+				 padding:0;
+				}
+				li{
+					list-style:none;
+				}
+				a{
+					text-decoration:none;
+					color:white;
+				}
+
+				.nav{
+					width:800px;
+					height:20px;
+					background:#f16a01;
+					border:2px solid red;
+					border-radius:3px 0 0 3px; 
+					margin:20px  auto;
+					background-image:linear-gradient(#fa7c03, #de4a04);
+				}
+				.nav ul li{
+					display:inline;
+					padding:0 10px;
+  </style>
  </head>
+
  <body>
-  
+			<div class='nav'>
+
+						<div class='index'>
+									<a href="" style='font-size:16px;text-align:center;'>全部商品分类</a>
+
+									<div class='EJ'>
+												<p class='p1'>大家电</p>
+												<p class='p2'>手机、数码</p>
+									</div>
+						</div>
+										<ul>
+												<li class='l1'>首页</li>
+												<li>抢购</li>
+												<li>团购</li>
+												<li>城市专区</li>
+												<li>节能产品</li>
+										</ul>
+			</div>
  </body>
 </html>
+

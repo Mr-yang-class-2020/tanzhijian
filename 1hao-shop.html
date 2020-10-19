@@ -8,14 +8,123 @@
   <meta name="Description" content="">
   <title>1号店</title>
   <style>
-  
+   * {
+    margin: 0;
+    padding: 0;
+   }
+
+   li {
+    list-style: none;
+   }
+
+   a {
+    text-decoration: none;
+    color: white;
+   }
+
+   .fl {
+    float: left;
+   }
+
+   .fr {
+    float: right;
+   }
+
+   /*```````````````````````````````````````````````*/
+   #content {
+    width: 1000px;
+    height: 100px;
+    background-color: transparent;
+    margin: 20px auto;
+   }
+
+   #topnav {
+    background-color: white;
+    width: 748px;
+    height: 29px;
+    margin: 0 auto;
+   }
+
+   #topnav .u1 {
+    height: 30px;
+    width: 750px;
+   }
+
+   #topnav .u1 .rlnav {
+    width: 672px;
+    height: 28px;
+    background-image: linear-gradient(#fff, #e6e6e6);
+    border: 1px solid #cacaca;
+    border-radius: 3px 3px 0 0;
+    border-bottom: none;
+   }
+
+   #topnav .u1 .rlnav li {
+    margin-right: 4px;
+   }
+
+   #topnav .u1 li {
+    width: 70px;
+    height: 29px;
+    float: left;
+
+   }
+
+   #topnav .u1 .index {
+    border: 1px solid #f4880a;
+    background-color: #f6ae35;
+    border-radius: 3px 3px 0 0;
+    border-bottom: none;
+    width: 60px;
+    margin-right: 10px;
+   }
+
+   #topnav .u1 .index a {
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+   }
+
+   #topnav .u1 li a {
+    display: block;
+    color: #b80000;
+    font-size: 12px;
+    /*vertical-align:middle; a标签未变为块元素时有用*/
+    line-height: 30px;
+    text-align: center;
+   }
+
+   #undernav {
+    background-color: #b80000;
+    width: 962px;
+    height: 40px;
+   }
+
+
   </style>
  </head>
  <body>
+ <div id="content">
+  <div id="topnav">
+   <ul class="u1">
+    <li class="index"><a href="">首页</a></li>
+    <div class="rlnav fr">
+     <li><a href="">1号商城</a></li>
+     <li><a href="">1号店</a></li>
+     <li><a href="">名品特卖</a></li>
+     <li><a href="">夜市抢购</a></li>
+     <li><a href="">积分商城</a></li>
+     <li><a href="">掌上1号店</a></li>
+     <li><a href="">礼品卡</a></li>
+     <li><a href="">试用中心</a></li>
+     <li><a href="">药品商城</a></li>
+    </div>
+   </ul>
+  </div>
 
-				<div>
-				
-				</div>
-				 
+  <div id="undernav">
+
+  </div>
+ </div>
  </body>
 </html>

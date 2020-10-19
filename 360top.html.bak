@@ -8,6 +8,10 @@
   <meta name="Description" content="">
   <title>360Top</title>
     <style>
+				*{
+						margin:0;
+						padding:0;
+				}
 
 				#nav{
 						width:3000px;
@@ -21,7 +25,7 @@
 						margin:0;
 						padding:0;
 						background-image:linear-gradient(to right, #040301 , #604613);
-						backgroundcolor:#040301;
+						background-color:#040301;
 				}
 				
 				.d1 ul{
@@ -40,14 +44,14 @@
 				}
 
 				.d2{
-						background-color:#222222;
+						background-color:#999999;
 						width:300px;
 						height:130px;
+
 				}
-				.d2 ul{
+				.d2 dl{
 						margin:0;
 						padding:0;	
-						list-style-type:none;
 				}
 				.d2 .u2 li{
 						text-decoration:none;
@@ -58,11 +62,8 @@
 						float:left;
 						height:20px;
 				}
-				.l2{
-						float:left;
-				}
-				.l3{
-						float:left;
+				.d2 dt
+				{
 				}
 
   </style>
@@ -86,21 +87,26 @@
 
 										<li><a href="#">所有分类</a></li>
 										<li><a href="#">TOP资讯
-										<span><img src='images/new.png' alt='new'/></span>
+										<span><img src='./../images/new.png' alt='new'/></span>
 										</a></li>
 								</ul>
 						</div>
 
 
 						<div class='d2'>
-								<ul class='u2'>
-										<li class='l1'>Female</li>
-										<li>Male</li>
-										<li class='l2'>女士包包</li>
-										<li>男士包包</li>
-										<li class='l3'>女士服饰</li>
-										<li>男士服饰</li>
-								</ul>
+									<dl>
+										<dt>
+											<a href="">男</a>
+											<a href="">女</a>
+										</dt>
+										<dd>男士包包</dd>
+										<dd>男士手表</dd>
+										<dd>女士包包</dd>
+										<dd>女士手表</dd>
+									</dl>
+
+									
+									
 						</div>
 				
 				</div>
