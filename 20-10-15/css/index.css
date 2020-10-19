@@ -48,6 +48,7 @@
 /*^^^^^^^^^^^^header区域结束^^^^^^^^^^^^*/
 
 /*^^^^^^^^^^^^nav区域开始^^^^^^^^^^^^*/
+
 #nav
 {
     height: 50px;
@@ -152,6 +153,21 @@
     font-size: 12px;
     background-color:transparent;
 }
+#content h3
+{
+    background: #2e2e2e no-repeat
+    url("../images/bj_07.png")
+    left top;
+    padding-top:4px;
+    padding-left: 18px;
+    height: 40px;
+    color: #fff;
+    line-height:36px;
+}
+#content h3 a
+{
+    color: #fff;
+}
 #content a
 {
     color:#505050;
@@ -163,59 +179,83 @@
     height:600px;
     width: 198px;
     margin-right:2px;
-}
-#content .left-con img
-{
-    width: 198px;
-}
-#content .left-con ul
- {
-     width:100%;
-     height:100%;
- }
-#content .left-con .index a
-{
-    color:#fff;
-    display: block;
-    text-align:left;
-    padding-left:0;
-}
-
-#content .left-con .index
-{
-    background-color:#2e2e2e;
-    height: 36px;
-}
-/* left-con下的top-con盒子（左上盒子）*/
-#content .left-con .top-con
-{
-   height: 305px;
-   background-color:#f0f0f0;
-}
-#content .left-con .top-con .index
-{
-    margin-top:1px;
-}
-#content .left-con .top-con li
-{
-    padding-bottom:18px;
-
-}
-#content .left-con .top-con li a
-{
-    display: block;
-    text-align: center;
-}
-/* left-con下的under-con盒子（左下盒子）*/
-#content .left-con .under-con
-{
-    height:280px;
     background-color:#f0f0f0;
 }
-#content .left-con .under-con ul li
-{
-    padding:8px 10px;
 
+/* left-con下的top-con盒子（左上盒子）*/
+#content .left-con .product-classification
+{
+   height: 305px;
+}
+#content .left-con .product-classification ul
+{
+    padding: 18px 0 35px 12px;
+}
+#content .left-con .product-classification ul li
+{
+    line-height:30px;
+    font-size: 12px;
+    height: 29px;
+    border-bottom: 1px solid #e1e4eb;
+    padding-left:52px;
+    position: relative;
+}
+/*#content .left-con .product-classification ul li::before*/
+/*{*/
+/*    display: block;*/
+/*    width: 5px;*/
+/*    height: 5px;*/
+/*    line-height: 0;*/
+/*    border: 3px solid rgba(0,0,0,.3);*/
+/*    border-radius: 50%;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top:50%;*/
+/*    -webkit-transform: translateY(-50%);*/
+/*    transform: translateY(-50%);*/
+/*    left: 6px;*/
+/*}*/
+#content .left-con .product-classification ul li span
+{
+    width: 7px;
+    height: 7px;
+    display: block;
+    border: 2px solid rgba(0,0,0,.3);
+    border-radius: 50%;
+    position: absolute;
+    top:6px;
+    left: 0;
+    -webkit-transform:translateY(-50%);
+    transform: translateY(-50%);
+}
+#content .left-con .product-classification ul li a:hover
+{
+    background-color:blue;
+
+}
+#content .left-con .product-classification ul li a
+{
+    display: block;
+}
+#content .left-con .product-classification ul li a::before
+{
+    content:'';
+
+}
+/* left-con下的under-con盒子（左下盒子）*/
+#content .left-con .contact-our
+{
+    height:280px;
+}
+#content .left-con .contact-our ul
+{
+    margin-top:30px;
+}
+#content .left-con .contact-our ul li
+{
+    font-size: 12px;
+    padding-bottom: 16px;
+    padding-left: 18px;
 }
 /* 右边大盒子 */
 #content .right-con
@@ -227,87 +267,88 @@
 #content .right-con .top-con
 {
     height:234px;
-    background-color: transparent;
 }
 /* 右盒子-上盒子-->左盒子*/
-#content .right-con .top-con .left-con
+#content .right-con .top-con .company-show
 {
     width: 516px;
     height: 234px;
+    margin-right:2px;
     float:left ;
 }
-#content .right-con .top-con .left-con ul .l3
+#content .right-con .top-con .company-show h3:after,
+#content .right-con .top-con .company-show h3 a
 {
-    height: 40px;
-    margin-bottom: 12px;
+    content:'';
+    font-size: 10px;
+    display:block;
+    float:right;
+    margin-right: 20px;
+    background-color:transparent;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+
 }
-#content .right-con .top-con .left-con ul .l4
+#content .right-con .top-con .company-show ul .l4
 {
     background-color:transparent;
     height: 70%;
 }
-#content .right-con .top-con .left-con ul .l4 p
+#content .right-con .top-con .company-show ul .l4 p
 {
     display: block;
     height: 136px;
     width: 468px;
     text-indent: 24px;
-    padding-left: 16px;
+    padding:20px 16px;
     line-height:24px;
 
 }
-#content .right-con .top-con .left-con img
-{
-    width:516px;
-    height:3px;
-}
-#content .right-con .top-con .left-con ul li
+#content .right-con .top-con .company-show ul li
 {
     background-color:#2e2e2e;
     height:40px;
 }
-#content .right-con .top-con .left-con ul li a
+#content .right-con .top-con .company-show ul li a
 {
     line-height: 40px;
     color: #fff;
 
 }
 /* 右盒子-上盒子-->右盒子*/
-#content .right-con .top-con .right-con
+#content .right-con .top-con .project-case
 {
     width: 238px;
     height: 234px;
     float: left;
 }
-#content .right-con .top-con .right-con ul
+#content .right-con .top-con .project-case ul
 {
-    height: 100%;
+    height:160px;
+    margin-top:20px;
 }
-#content .right-con .top-con .right-con ul img
+#content .right-con .top-con .project-case ul li
 {
-    width: 100%;
-}
-#content .right-con .top-con .right-con ul li
-{
-    margin-bottom:12px;
     list-style: square;
     margin-left: 16px;
 
 }
-#content .right-con .top-con .right-con ul .l1
+
+#content .right-con .top-con .project-case ul li a
 {
-    height: 40px;
-    margin-left:0;
-    background:#2e2e2e;
+    line-height:25px;
+    color:#505050;
 }
-#content .right-con .top-con .right-con ul .l1 a
+#content .right-con .top-con .project-case h3:after,
+#content .right-con .top-con .project-case h3 a
 {
-    line-height: 40px;
-    color: #fff;
-}
-#content .right-con .top-con .a1
-{
-    margin-left:16px;
+    content: none;
+    font-size: 10px;
+    display: block;
+    float: right;
+    margin-right: 20px;
+    -webkit-transform:scale(0.5);
+    transform: scale(0.5);
 }
 /* 右盒子-下盒子--上标盒*/
 #content .right-con .under-con
@@ -361,17 +402,19 @@
     height:120px;
     float: left;
 }
-#content .right-con .xia ul li div h4
-{
-    padding-bottom:8px;
-}
 #content .right-con .xia ul li div p
 {
     line-height:16px;
 }
-#content .right-con .xia ul li .text
+#content .right-con .under-con .shang h3:after,
+#content .right-con .under-con .shang h3 a
 {
-    padding-right:2px;
+    font-size: 10px;
+    display: block;
+    float: right;
+    margin-right: 20px;
+    -webkit-transform:scale(0.5);
+    transform:scale(0.5);
 }
 /*^^^^^^^^^^^^content区域结束^^^^^^^^^^^^*/
 
@@ -383,7 +426,6 @@
 }
 #footer ul
 {
-    width:100%;
     background-color: #2e2e2e;
     height: 70px;
     margin-bottom: 10px;
@@ -399,9 +441,10 @@
     color: #fff;
     line-height: 40px;
 }
-#footer ul span
+#footer span p
 {
-    display: inline-block;
+    display:block;
+    text-align:center;
     padding-top: 5px;
     margin-left:16px;
 }
